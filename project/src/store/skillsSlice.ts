@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import type { Skill } from '../types';
-import { Code, Database, Wrench } from 'lucide-react';
+// import { Code, Database, Wrench } from 'lucide-react';
 
 interface SkillsState {
   skills: Skill[];
@@ -18,11 +18,11 @@ const initialState: SkillsState = {
     { name: 'Node.js', icon: 'node', category: 'backend' },
     { name: 'Express', icon: 'express', category: 'backend' },
     { name: 'MongoDB', icon: 'mongodb', category: 'backend' },
-    { name: 'PostgreSQL', icon: 'postgresql', category: 'backend' },
+    { name: 'GitHub', icon: 'github', category: 'tools' },
     { name: 'Python', icon: 'python', category: 'backend' },
     { name: 'Git', icon: 'git', category: 'tools' },
-    { name: 'Docker', icon: 'docker', category: 'tools' },
-    { name: 'AWS', icon: 'aws', category: 'tools' },
+    { name: 'TensorFlow', icon: 'tensorflow', category: 'frontend' },
+    { name: 'Hand pose', icon: 'handpose', category: 'frontend' },
     { name: 'Three.js', icon: 'threejs', category: 'frontend' },
   ],
   filter: 'all',
